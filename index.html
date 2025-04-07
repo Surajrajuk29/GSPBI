@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Sales Performance Dashboard" content="width=device-width, initial-scale=1.0">
-    <title>Power BI Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSynergy Sales Performance Dashboard</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,14 +22,17 @@
             position: relative;
             overflow: hidden;
         }
+
+        iframe {
+            border: none;
+        }
     </style>
 </head>
 <body>
     <div id="powerbi-container">
-        <iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiMWFjYTNlNTEtNTAyOS00MGM1LTk3NDQtZjVhNDM4Y2NjZTYxIiwidCI6IjVlZDU3N2NhLWExYjgtNDhiMi05NDg0LWEyMmNhN2ZlMThlMiJ9" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe title="GSynergy Sales Performance Dashboard" width="100%" height="600" 
+                src="https://app.powerbi.com/view?r=eyJrIjoiMWFjYTNlNTEtNTAyOS00MGM1LTk3NDQtZjVhNDM4Y2NjZTYxIiwidCI6IjVlZDU3N2NhLWExYjgtNDhiMi05NDg0LWEyMmNhN2ZlMThlMiJ9" 
+                allowFullScreen="true"></iframe>
     </div>
-
-    <!-- Optional: You can use Power BI JavaScript API for more custom interactions -->
-    <!-- <script src="https://cdn.powerbi.com/libs/powerbi-client/2.19.1/powerbi.min.js"></script> -->
 </body>
 </html>
